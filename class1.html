@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+<body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corrupti sunt, exercitationem voluptate nesciunt molestias explicabo, nulla numquam porro illum aut a harum illo eaque <a href="#">laudantium</a> maxime, corporis animi veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corrupti sunt, exercitationem voluptate nesciunt molestias explicabo, nulla numquam porro illum aut a harum illo eaque laudantium maxime, corporis animi veritatis.</p>
+
+    <p>Lorem ipsum dolor sit amet <a href="https://google.com" target="_blank">consectetur </a> adipisicing elit. Quod corrupti sunt, exercitationem voluptate nesciunt molestias explicabo, nulla numquam porro illum aut a harum illo eaque laudantium maxime, corporis animi veritatis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod corrupti sunt, <a href="https://facebook.com" target="_blank">exercitationem</a> voluptate nesciunt molestias explicabo, nulla numquam porro illum aut a harum illo eaque laudantium maxime, corporis animi veritatis.</p>
+
+    <style>
+
+        a[target='_blank'] {
+           color: red;
+           font-size: 32pt;
+        }
+
+        a[target='_blank']::after {
+            content: '->';
+        }
+
+    </style>
+</body>
+</html>
